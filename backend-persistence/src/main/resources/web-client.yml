@@ -1,0 +1,15 @@
+webClient:
+  defaultProperties:
+    connectionTimeout: 9000
+    readTimeout: 9000
+    writeTimeout: 9000
+    maxIdleTime: 59s
+    maxLifeTime: 59s
+    maxRetry: 2
+    maxConnections: 1500
+    retryDelay: 1s
+  services:
+    er-api:
+      url: https://open.er-api.com/v6/latest/
+    kakao:
+      url: https://dapi.kakao.com/v2/local/search/address.json
